@@ -11,16 +11,16 @@
       <i class="ion-arrow-right-b" (click)="nextMonth()"></i>
     </div>
     <div class="ui-kit-calendar-day-names">
-      <span>Mon</span>
-      <span>Tue</span>
-      <span>Wed</span>
-      <span>Thu</span>
-      <span>Fri</span>
-      <span>Sat</span>
-      <span>Sun</span>
+      <span>Mo</span>
+      <span>Di</span>
+      <span>Mi</span>
+      <span>Do</span>
+      <span>Fr</span>
+      <span>Sa</span>
+      <span>So</span>
     </div>
     <div class="ui-kit-calendar-days">
-      <span *ngFor="let d of days; let i = index;" 
+      <span *ngFor="let d of days; let i = index;"
             (click)="selectDate($event, i)"
             [class.today]="d.today"
             [class.is-active]="d.selected">
