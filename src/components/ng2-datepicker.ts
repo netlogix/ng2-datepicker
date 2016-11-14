@@ -23,7 +23,6 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
   moduleId: 'module.id',
   selector: 'datepicker',
   templateUrl: './ng2-datepicker.component.html',
-  styleUrls: ['./ng2-datepicker.css'],
   providers: [CALENDAR_VALUE_ACCESSOR]
 })
 export class DatePickerComponent implements ControlValueAccessor, OnInit {
