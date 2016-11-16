@@ -34,7 +34,7 @@ export class DatePickerComponent implements ControlValueAccessor, OnInit {
   @Input() viewFormat: string;
   @Input() firstWeekdaySunday: boolean;
 
-  private date: any = moment();
+  protected date: any = moment();
   private onChange: Function;
   private onTouched: Function;
   private el: Element;
